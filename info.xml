@@ -2,7 +2,7 @@
 <extension key="etuitokens" type="module">
   <file>etuitokens</file>
   <name>etuitokens</name>
-  <description>FIXME</description>
+  <description>ETUI tokens</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Alain Benbassat</author>
