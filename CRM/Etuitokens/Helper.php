@@ -60,10 +60,10 @@ class CRM_Etuitokens_Helper {
     // add the name of the correct organization
     // (if the address is linked to a contact, it gets precedence over the current employer
     if ($addressDao->master_organization_name) {
-      $addressee .= "\n" . $addressDao->master_organization_name;
+      $addressee .= '<br>' . $addressDao->master_organization_name;
     }
     elseif ($addressDao->employer_name) {
-      $addressee .= "\n" . $addressDao->employer_name;
+      $addressee .= '<br>' . $addressDao->employer_name;
     }
 
     return $addressee;
